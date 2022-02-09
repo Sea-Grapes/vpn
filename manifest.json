@@ -1,0 +1,14 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_popup": "control.html"
+   },
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com 'unsafe-eval'; object-src 'self'",
+   "description": "VPN",
+   "manifest_version": 2,
+   "name": "VPN",
+   "permissions": [ "<all_urls>", "webRequest", "storage", "proxy" ],
+   "version": "1.0.1"
+}
